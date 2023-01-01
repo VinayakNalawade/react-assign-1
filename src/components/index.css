@@ -1,0 +1,70 @@
+.li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.urlName {
+  margin: 0;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #475569;
+
+  font-weight: 600;
+}
+
+.url {
+  font-size: 14px;
+  margin: 0;
+  color: #64748b;
+}
+
+.urlLogo {
+  width: 27px;
+  height: 27px;
+  margin-right: 10px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.deleteLogo {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+}
+
+.time {
+  font-size: 12px;
+  width: 60px;
+  font-weight: 700;
+  color: #475569;
+  flex-shrink: 0;
+}
+
+.logonamesContainer {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .li {
+    flex-wrap: wrap;
+  }
+  .time {
+    width: 100%;
+  }
+}
